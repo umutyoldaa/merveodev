@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+html{
+    font-family: "raleway", sans-serif;
+}
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+#navbar ul li a{
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+    background:#4773c1 ;
+   border-radius: 4px;
+
+  
+}
+
+
+#home {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem;
+   border-bottom: 3px solid rgb(72, 69, 69);
+   
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border:#4773c1 solid 4px;
+
+}
+#home .name{
+    text-align: center;
+}
+#home .name h2{
+
+    padding:0.75rem;
+ margin-bottom: 0.75rem;
+ border-radius: 5px;
+ letter-spacing: 0.5px;
+ margin-top: 1.25rem;
+ 
+}
+p{
+
+    font-style: italic;
+      opacity: 6;
+}
+
+
+
+.btn{
+    margin-top: 1.25rem;
+    background: #4773c1;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+.btn:hover{
+    color: #4773c1;
+    background: #fff;
+    border:0.5px solid #4773c1;
+}
+#iletişim {
+    color: #fff;
+    padding: 2rem;
+    border-bottom: 3px solid rgb(72, 69, 69);
+
+
+}
+#iletişim .form{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+#iletişim .btn{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+#iletişim .name{
+    width: 30%;
+    text-align: center;
+}
+#hakkımda{
+    color: #fff;
+    padding: 1rem;
+    border-bottom: 3px solid rgb(72, 69, 69);
+
+}
+#hakkımda .p{
+    display: block;
+}
+#fotoğraflar{
+color: #4773c1;
+padding: 1rem;
+
+
+}
+#fotoğraflar img{
+max-width: 32%;
+height: auto;
+padding: 5;
+border: #4773c1 solid 3px;
+border-bottom: 3px solid rgb(72, 69, 69);
+
+}
+
+#son {
+    color: #fff;
+    padding: 4rem;
+
+    
+}
+#son .p{
+    display: flex;
+}
+.ara{
+    display: flex;
+ 
+    justify-content: right;
+    align-items: center;
+    color: #4773c1;
+    border-radius: 10px;
+ 
+
+}
+.btnara{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+   
+}
+.arabox{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    
+}
+
+
